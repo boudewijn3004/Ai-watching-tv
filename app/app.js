@@ -1,6 +1,6 @@
 
 
-let authKey = "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"; 
+let authKey = "YOUR-API-KEY"; 
 
 //get engines 
 // $.ajax({

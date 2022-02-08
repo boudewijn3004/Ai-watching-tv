@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    inside ./appp
+    <div class="promp-sumbit-form">
+            <textarea name="prompt-text" id="prompt-text" cols="30" rows="10"></textarea>
+            <a id="generate-button" class="button" href="javascript:void(0)" > Talk to me</a>
+            <a id="continue-button" class="button" href="javascript:void(0)" > Continue</a>
+            
+    </div>
+    <div class="text-container">
+        <span class="prompt">
+
+        </span>
+        <span class="ai-result">
+    
+        </span>
+        <div class="loading">Loading...</div>
+
+    </div>
+    
+    <div class="image-description-container">
+        <div class="image-description-one image-description"></div>
+        <div class="image-description-two image-description"></div>
+        <div class="image-description-three image-description"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@runwayml/hosted-models@latest/dist/hosted-models.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.js"></script>
+    <script src="js/p5.speech.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,4 +1,9 @@
 # Ai-watching-tv
 
 
-pls add your own apikey 
+## instructions
+
+1.
+    npm install 
+
+2. pls add your own apikey 
